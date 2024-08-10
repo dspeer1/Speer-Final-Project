@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Swiss Peaks Sanctuary</title>
+        <meta name="author" content="Derek Speer">
+        <meta name="description" content="Get in touch with Swiss Peaks Sanctuary through our contact page. Find all the details you need to reach us, including phone numbers, email addresses, and our location, and let us assist you with your inquiries or bookings.">
+
+        <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div>
+            <h1><a href="index.html">Swiss Peaks Sanctuary</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+            <img src="images/swiss-valley.jpg" alt="Panoramic view of a lush Swiss valley." width="1440" height="560">
+        </header>
+        <main>
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+            <p>Required fields marked with a *</p>
+            <img src="images/swiss-peak.jpg" alt="Majestic Swiss peak towering against the sky, with snow-covered slopes, rugged mountain terrain, and forests." width="350" height="455">
+
+            <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="POST">
+
+                    <label for="my_name">Full Name: <span class="required">*</span></label>
+                    <input type="text" name="my_name" id="my_name" required>
+                
+                    <label for="my_email">Email Address: <span class="required">*</span></label>
+                    <input type="email" name="my_email" id="my_email" required>
+                
+                    <label for="my_phone">Phone Number: <span class="required">*</span></label>
+                    <input type="tel" name="my_phone" id="my_phone" required>
+                
+                    <fieldset>
+                        <legend>Preferred Method of Contact<span class="required">*</span></legend>
+                                    
+                        <input type="radio" name="contact-pref" id="pref-email" value="prefer-email" required checked>
+                        <label for="pref-email">Email</label>
+                                    
+                        <input type="radio" name="contact-pref" id="pref-phone" value="prefer-phone">
+                        <label for="pref-phone">Phone</label>
+                                    
+                    </fieldset>
+                
+                    <label for="my-comments">Comments <span class="required">*</span></label>
+                    <textarea name="my-comments" id="my-comments"></textarea>
+
+                    <input type="submit" name="mySubmit" id="mySubmit" value="Submit">    
+            </form>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2023 - Swiss Peaks Sanctuary</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
